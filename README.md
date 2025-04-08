@@ -1,59 +1,56 @@
-# MyDisneyApp
+## Title
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
+Disney Dreaming
 
-## Development server
+## Description/User Story
 
-To start a local development server, run:
+This is a application created with Angular, Typescript, BootstrapJS.
+We wanted to create cards that the user is able to view and add to a card deck.
+The User will be able to add a disney character cards to their card deck to view their selections.
+The User will be able to search different characters using the search bar feature located on the header.
+The User will be able to see all details of a specific character (when available) by clicking the "details" button on each character card.
+User can delete a character card from your deck.
+The User will have links to our social medias on the footer.
 
-```bash
-ng serve
-```
+## Table of Contents
+- [Title](#title)
+- [Description](#description)
+- [Features](#features)
+- [On Arrival](#on-arrival)
+- [License](#license)
+- [Bio](#bio)
+- [Links](#links)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Find new disney character that you didn't know about before with our app.
 
-## Code scaffolding
+## Features 
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **Standalone App:** This is a standolne application built in the Angular framework.
+- **Modules:** Modules were used for better organization, in accordance with proper Angular file structure.
+- **Services:** Services were used to create functional communications with the front and back end of the application.
+- **Components:** Components were used to store specific parts of the application's functionality, in accordance with proper Angular file structure.
+- **Routing:** The application uses angular routing for navigation between the app's components, in accordance with proper Angular file structure.
 
-```bash
-ng generate component component-name
-```
+## On Arrival 
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Ensure to run the following commands 
 
-```bash
-ng generate --help
-```
+1. `npm i` 
+2. `node server/seed.js` 
+3. `npm run server-dev`
+4. In the public folder, run `npx start`
 
-## Building
+## License
 
-To build the project run:
+This project is under the MIT License. 
 
-```bash
-ng build
-```
+## Bio
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Justin Berg and Daniel Paiz worked on this project.  This is project is built around a disney API utilizing the Angular framework.
 
-## Running unit tests
+## Links 
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Github: https://github.com/justinberg97  | https://github.com/DannyPaiz
+LinkedIn: https://www.linkedin.com/in/justin-berg-07409518a/
+Email: justinmberg97@gmail.com
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
